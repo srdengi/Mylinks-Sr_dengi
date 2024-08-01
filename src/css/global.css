@@ -1,0 +1,59 @@
+@import "./reset.css";
+
+:root {
+  --main-color: #006c7a;
+  --secundary-color: #e4e2ea;
+  --cards: #d8ccff;
+
+  --button-flat: #6a00ff;
+  
+  --button-active: #6a00ff;
+  --border-color: #9d70ff;
+
+  --text-bold-color: #18ecce;
+  --text-highligth: #18ecce;
+
+  --font-montserrat: 'Montserrat Variable', sans-serif;
+  /* Darkmode */
+  --background-image: url("/public/img/fondo2.jpg");
+  --bg-color-dark: #333; /* Ejemplo de color de fondo para modo oscuro */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--secundary-color);
+  font-family: var(--font-montserrat);
+  position: relative;
+  min-height: 100vh; /* Asegura que el body tenga al menos la altura de la ventana */
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: var(--background-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur(4px); /* Ajusta el valor del desenfoque aquí */
+  z-index: -1; /* Envía la imagen de fondo detrás del contenido */
+}
+
+.dark body {
+  background-color: var(--bg-color-dark);
+  color: var(--secundary-color);
+}
+
+.dark body::before {
+  background-image: var(--background-image); /* Mantener la imagen de fondo en modo oscuro */
+}
