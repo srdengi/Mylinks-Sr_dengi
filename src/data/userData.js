@@ -1,7 +1,7 @@
 const userData = [
   {
     userName: "Marc Aliaga",
-    userDesc: "Backend & Web 3 developer | Cybersecurity ",
+    userDesc: " Web 3 dev | InfoSec | Backend  ",
     userPic: "https://avatars.githubusercontent.com/u/173827120?v=4",
     userPicDark: "https://avatars.githubusercontent.com/u/173827120?v=4",
   },
