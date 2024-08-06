@@ -36,8 +36,8 @@ const socialLinks = [
 
 const userLinks = [
     {
-        title:"Portafolio - Soon...",
-        link:"",
+        title:"MY DEX (OQTOPUS DEX) ",
+        link:"https://oqtopus-dex-37sk.vercel.app/",
         icon:"ant-design:code-filled"
     },
     {
