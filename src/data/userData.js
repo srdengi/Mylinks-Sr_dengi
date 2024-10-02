@@ -19,7 +19,7 @@ const socialLinks = [
   },
   {
     socialName: "Instagram",
-    socialUl: "https://www.instagram.com/srdengi/",
+    socialUl: "https://www.instagram.com/_m_a_r_cxx/",
     socialIcon: "ri:instagram-fill",
   },
   {
@@ -29,7 +29,7 @@ const socialLinks = [
   },
   {
     socialName: "Telegram",
-    socialUl: "https://t.me/srdengi",
+    socialUl: "https://t.me/marcaliaga",
     socialIcon: "mingcute:telegram-fill",
   },
 ];
